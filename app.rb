@@ -1,5 +1,5 @@
 require "sinatra"
 
 get '/'  do
-"hello World, this my first web app"	
+	erb :index	
 end
